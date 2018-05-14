@@ -1,0 +1,24 @@
+{
+  "name": "nova-transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolsw2/NOVA-Transport.git"
+  },
+  "author": "Karol Świerczek",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/karolsw2/NOVA-Transport/issues"
+  },
+  "homepage": "https://github.com/karolsw2/NOVA-Transport#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-stylus": "^2.7.0"
+  }
+}
