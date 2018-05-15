@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700");
 body {
   margin: 0;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 img {
   max-width: 100%;
@@ -55,12 +55,42 @@ img {
   opacity: 0.75;
   cursor: pointer;
 }
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header__content {
+  font-weight: 200;
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 0 0 12px rgba(0,0,0,0.5);
+  transition-duration: 0.18s;
+  z-index: 2;
+}
+.header__image {
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("images/header.jpg") center no-repeat;
+  background-size: auto auto;
+  background-size: 1700px 1000px;
+}
 @media screen and (max-width: 550px) {
   .menu {
     justify-content: center;
   }
   .menu__logo {
     display: none;
+  }
+  .header__content {
+    font-size: 2.5em;
   }
 }
 @media screen and (max-width: 410px) {
