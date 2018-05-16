@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,700");
 body {
   margin: 0;
   font-size: 16px;
@@ -17,13 +17,13 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition-duration: 0.18s;
+  transition-duration: 0.21s;
   z-index: 3;
 }
 .menu__logo {
   padding: 7px;
   cursor: pointer;
-  transition-duration: 0.18s;
+  transition-duration: 0.21s;
 }
 .menu__logo img {
   height: 50px;
@@ -46,7 +46,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition-duration: 0.18s;
+  transition-duration: 0.21s;
 }
 .menu__button:hover {
   opacity: 0.75;
@@ -55,20 +55,31 @@ img {
 .header {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 700px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 .header__content {
-  font-weight: 200;
-  font-size: 4em;
+  width: 100%;
+  margin-top: 80px;
+  padding: 20px 60px;
   color: #fff;
   text-shadow: 0 0 12px rgba(0,0,0,0.5);
   transition-duration: 0.18s;
+  line-height: 0.82em;
   z-index: 2;
+}
+.header__content h1 {
+  font-size: 70px;
+  font-weight: 200;
+}
+.header__content h2 {
+  font-size: 23px;
+  font-weight: 100;
+  font-style: italic;
 }
 .header__image {
   overflow: hidden;
