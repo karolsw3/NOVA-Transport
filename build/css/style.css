@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700");
 body {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Roboto', sans-serif;
 }
 img {
@@ -11,10 +11,9 @@ img {
 .menu {
   position: fixed;
   width: 100%;
-  height: 85px;
-  padding: 0 7px;
+  height: 125px;
+  padding: 0 60px;
   box-sizing: border-box;
-  background: rgba(255,255,255,0.95);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +30,6 @@ img {
 }
 .menu__logo:hover {
   opacity: 0.75;
-  padding-top: 11px;
 }
 .menu__buttons {
   height: 100%;
@@ -42,7 +40,7 @@ img {
 .menu__button {
   margin: 0 25px;
   padding: 7px 7px;
-  color: rgba(0,0,0,0.9);
+  color: #fff;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -51,7 +49,6 @@ img {
   transition-duration: 0.18s;
 }
 .menu__button:hover {
-  padding-top: 11px;
   opacity: 0.75;
   cursor: pointer;
 }
@@ -78,7 +75,7 @@ img {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: url("../images/header.jpg") center no-repeat;
+  background: url("../../images/header.jpg") center no-repeat;
   background-size: auto auto;
   background-size: 1700px 1000px;
 }
