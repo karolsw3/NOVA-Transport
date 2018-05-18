@@ -125,7 +125,7 @@ img {
   color: #01091a;
 }
 .containers__content h2 {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 300;
   color: rgba(0,0,0,0.7);
 }
@@ -147,6 +147,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("../../images/dream.jpg") center 100%/100%;
 }
 @media screen and (max-width: 550px) {
   .menu {
