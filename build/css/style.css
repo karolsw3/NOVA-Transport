@@ -132,6 +132,11 @@ img {
 .containers__content:nth-child(odd) {
   text-align: left;
 }
+.containers__content--centered {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center !important;
+}
 section {
   width: 100%;
   height: 320px;
