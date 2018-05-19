@@ -66,7 +66,7 @@ img {
 .header {
   position: relative;
   width: 100%;
-  height: 650px;
+  height: 680px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -93,13 +93,15 @@ img {
   font-style: italic;
 }
 .header__image {
+  top: -30px;
   overflow: hidden;
   position: absolute;
-  height: 100%;
+  height: 120%;
   width: 100%;
   background: url("../../images/header.jpg") center no-repeat;
   background-size: auto auto;
   background-size: 1700px 1000px;
+  z-index: -1;
 }
 .header__check {
   position: absolute;
@@ -112,6 +114,7 @@ img {
 .containers {
   width: 100%;
   display: grid;
+  background: #fff;
   grid-template: 1fr/1fr;
 }
 .containers__container {
@@ -149,7 +152,7 @@ img {
 }
 section {
   width: 100%;
-  height: 220px;
+  height: 280px;
   background: #083395;
   color: #fff;
   font-size: 38px;
