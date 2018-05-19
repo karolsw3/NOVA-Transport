@@ -9,7 +9,7 @@ img
 	max-height 100%
 .menu
 	position absolute
-	top 0
+	top 50px
 	width 100%
 	height 125px
 	padding 0 60px
@@ -19,6 +19,16 @@ img
 	align-items center
 	transition-duration 0.21s
 	z-index 3
+	color white
+	&--mini
+		color rgba(255, 255, 255, 0.5)
+		top 0
+		padding 10px 60px
+		position relative
+		height auto
+		background #222
+		font-size 0.8em
+		flex-direction row-reverse
 	&__logo
 		padding 7px
 		cursor pointer
@@ -33,9 +43,8 @@ img
 		justify-content center
 		align-items center
 	&__button
-		margin 0 25px
+		margin 0 20px
 		padding 7px 7px
-		color white
 		text-align center
 		display flex
 		flex-direction column
@@ -49,7 +58,7 @@ img
 .header
 	position relative
 	width 100%
-	height 600px
+	height 650px
 	box-sizing border-box
 	display flex
 	align-items center
@@ -64,7 +73,7 @@ img
 		line-height 0.82em
 		z-index 2
 		h1
-			font-size 72px
+			font-size 62px
 			font-weight 400
 		h2
 			margin-left 7px
