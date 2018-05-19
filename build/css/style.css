@@ -180,3 +180,61 @@ section {
     display: none;
   }
 }
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.floating--slow {
+  animation-duration: 5s;
+}
+.floating--normal {
+  animation-duration: 3s;
+}
+.floating--fast {
+  animation-duration: 2s;
+}
+@-moz-keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(18%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(18%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@-o-keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(18%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(18%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

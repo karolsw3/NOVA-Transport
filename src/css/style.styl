@@ -152,3 +152,22 @@ section
 @media screen and (max-width: 380px)
 	.menu
 		display none
+
+.floating
+	animation-name floating
+	animation-duration 3s
+	animation-iteration-count infinite
+	&--slow
+		animation-duration 5s
+	&--normal
+		animation-duration 3s
+	&--fast
+		animation-duration 2s
+
+@keyframes floating
+	0%
+		transform translateY(0%)
+	50%
+		transform translateY(18%)
+	100%
+		transform translateY(0%)
