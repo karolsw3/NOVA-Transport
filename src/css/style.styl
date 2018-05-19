@@ -142,22 +142,26 @@ section
 .contact
 	width 100%
 	color white
-	background #4455ff
-	padding 120px 8%
+	padding 60px 8% 80px 8%
 	box-sizing border-box
-	text-align left
+	text-align center
 	background url('../../images/contact.jpg') center 100% / 100%
 	h1
+		font-size 44px
+		font-weight 800
+	h2
 		font-size 34px
 		font-weight 300
-	display grid
-	grid-template 1fr / 1fr 1fr
+	&__containers
+		display grid
+		grid-template 1fr / 1fr 1fr
 	&__container
 		margin 0
 		display flex
 		flex-direction column
 		justify-content center
 		align-items center
+		text-align left
 	&__input
 		margin 10px 0
 		padding 10 20px

@@ -162,17 +162,22 @@ section {
 .contact {
   width: 100%;
   color: #fff;
-  background: #45f;
-  padding: 120px 8%;
+  padding: 60px 8% 80px 8%;
   box-sizing: border-box;
-  text-align: left;
+  text-align: center;
   background: url("../../images/contact.jpg") center 100%/100%;
-  display: grid;
-  grid-template: 1fr/1fr 1fr;
 }
 .contact h1 {
+  font-size: 44px;
+  font-weight: 800;
+}
+.contact h2 {
   font-size: 34px;
   font-weight: 300;
+}
+.contact__containers {
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
 }
 .contact__container {
   margin: 0;
@@ -180,6 +185,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
 .contact__input {
   margin: 10px 0;
