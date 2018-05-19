@@ -119,7 +119,7 @@ img {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 80px 8%;
+  padding: 80px 16%;
 }
 .containers__container:nth-child(even) {
   background: rgba(241,241,241,0.784);
@@ -201,6 +201,40 @@ section {
   align-items: center;
   justify-content: center;
   font-size: 1.1em;
+}
+.footer {
+  width: 100%;
+  background: #222;
+  padding: 60px 14%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+.footer--mini {
+  background: #111;
+  padding: 8px 8%;
+  color: rgba(255,255,255,0.3);
+}
+.footer__container {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: rgba(255,255,255,0.5);
+  align-items: flex-start;
+}
+.footer__button {
+  cursor: pointer;
+  padding: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.21s;
+}
+.footer__button:hover {
+  opacity: 0.75;
 }
 @media screen and (max-width: 550px) {
   .menu {
