@@ -258,6 +258,11 @@ section {
     font-size: 24px;
   }
 }
+@media screen and (max-width: 880px) {
+  .contact__containers {
+    grid-template: 1fr/1fr;
+  }
+}
 @media screen and (max-width: 550px) {
   .menu {
     justify-content: center;

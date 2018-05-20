@@ -224,7 +224,10 @@ section
 	.contact
 		h2
 			font-size 24px
-
+@media screen and (max-width: 880px)
+	.contact
+		&__containers
+			grid-template 1fr / 1fr
 @media screen and (max-width: 550px)
 	.menu
 		justify-content center
