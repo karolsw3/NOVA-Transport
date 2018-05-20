@@ -50,6 +50,7 @@ img
 		flex-direction column
 		justify-content center
 		align-items center
+		white-space nowrap
 		transition-duration 0.21s
 		&:hover
 			opacity 0.75
@@ -70,7 +71,6 @@ img
 		padding 20px 8%
 		color white
 		transition-duration 0.18s
-		line-height 0.82em
 		z-index 2
 		h1
 			font-size 62px
@@ -80,6 +80,7 @@ img
 			font-size 21px
 			font-weight 100
 			font-style italic
+			line-height 0.8em
 	&__image
 		top -30px
 		overflow hidden
@@ -201,7 +202,7 @@ section
 	&__button
 		cursor pointer
 		padding 4px
-		text-align center
+		text-align left
 		display flex
 		flex-direction column
 		justify-content center
@@ -228,6 +229,12 @@ section
 	.contact
 		&__containers
 			grid-template 1fr / 1fr
+
+@media screen and (max-width: 725px)
+	.menu
+		top 0
+		&--mini
+			display none
 @media screen and (max-width: 550px)
 	.menu
 		justify-content center

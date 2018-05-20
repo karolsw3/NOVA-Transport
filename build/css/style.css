@@ -57,6 +57,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
   transition-duration: 0.21s;
 }
 .menu__button:hover {
@@ -79,7 +80,6 @@ img {
   padding: 20px 8%;
   color: #fff;
   transition-duration: 0.18s;
-  line-height: 0.82em;
   z-index: 2;
 }
 .header__content h1 {
@@ -91,6 +91,7 @@ img {
   font-size: 21px;
   font-weight: 100;
   font-style: italic;
+  line-height: 0.8em;
 }
 .header__image {
   top: -30px;
@@ -229,7 +230,7 @@ section {
 .footer__button {
   cursor: pointer;
   padding: 4px;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -261,6 +262,14 @@ section {
 @media screen and (max-width: 880px) {
   .contact__containers {
     grid-template: 1fr/1fr;
+  }
+}
+@media screen and (max-width: 725px) {
+  .menu {
+    top: 0;
+  }
+  .menu--mini {
+    display: none;
   }
 }
 @media screen and (max-width: 550px) {
