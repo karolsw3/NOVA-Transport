@@ -239,6 +239,25 @@ section {
 .footer__button:hover {
   opacity: 0.75;
 }
+@media screen and (max-width: 1050px) {
+  .containers__container {
+    display: block;
+  }
+  .containers__content {
+    max-width: 100%;
+  }
+  .containers__content:nth-child(odd) {
+    text-align: center;
+  }
+  .containers__content,
+  .containers__icon {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .contact h2 {
+    font-size: 24px;
+  }
+}
 @media screen and (max-width: 550px) {
   .menu {
     justify-content: center;
