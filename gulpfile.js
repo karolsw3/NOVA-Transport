@@ -5,7 +5,7 @@ var stylus = require('gulp-stylus')
 gulp.task('html', function () {
   return gulp.src('src/**/*.pug')
     .pipe(pug())
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest(''))
 })
 
 gulp.task('css', function () {
