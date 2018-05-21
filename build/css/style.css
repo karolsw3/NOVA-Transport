@@ -116,6 +116,7 @@ img {
   width: 100%;
   display: grid;
   background: #fff;
+  overflow: hidden;
   grid-template: 1fr/1fr;
 }
 .containers__container {
