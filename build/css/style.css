@@ -103,7 +103,7 @@ a {
   position: absolute;
   height: 120%;
   width: 100%;
-  background: url("../../images/header.jpg") center no-repeat;
+  background: url("../../images/header.jpg") center;
   background-size: auto auto;
   background-size: 1700px 1000px;
   z-index: -1;
